@@ -1,6 +1,6 @@
 # Rest API
 
-Useful Rest API References for Jenkins to mark which models are published.
+Useful [Rest API References](https://www.mlflow.org/docs/latest/rest-api.html) for Jenkins to mark which models are published.
 
 ---
 
