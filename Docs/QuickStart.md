@@ -1,6 +1,6 @@
-# MLOps
+# QuickStart
 
-MLOps / Dockerizing `mlflow`, and tracking your runs.
+Running dockerized mlflow tracking server, and tracking your runs.
 
 -----
 
