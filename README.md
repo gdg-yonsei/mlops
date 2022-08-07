@@ -1,6 +1,6 @@
 # MLOps
 
-MLOps / Dockerizing `mlflow`.
+MLOps / Dockerizing `mlflow`, and tracking your runs.
 
 -----
 
