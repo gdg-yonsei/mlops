@@ -43,3 +43,5 @@ mlflow run MNIST --env-manager=local --experiment-name="test"
 ```
 
 Run your model in a local virtual environment that can be created by `virtualenv`, and track your run with an experiment named "test". From the google, you can see `--no-conda` command which is deprecated, so use `--env-manager=local` instead.
+
+If you don't specify `--experiment-name`, the run is tracked with an `Default` experiment of which `--experiment-id` is zero.
