@@ -11,7 +11,7 @@ This repository is based on MLFlow, Docker, Docker-Compose, MySql and AWS S3.
 </div>
 
 ## Quick Start
-- [For ML Developers](examples/README.md)
+- [For ML Developers](client/README.md)
 - [For Infra Managers](server/README.md)
 
 These guides are for mlflow usage and simple settings. If you are a infra developer and plan to set up MLOps, read the below section. 
