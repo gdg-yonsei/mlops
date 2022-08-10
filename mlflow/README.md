@@ -16,7 +16,7 @@ These are used to set `MLFLOW_DB_URI: mysql://${MLFLOW_DBMS_USER}:${MLFLOW_DBMS_
     - export MLFLOW_DBMS_PORT=
     - export MLFLOW_DBMS_DB=
 
-Be sure to make ${MLFLOW_DBMS_DB} schema in advance. It is not made automatically.
+Be sure to make `MLFLOW_DBMS_DB` schema in advance. It is not made automatically.
 
 ## Run Server
 
