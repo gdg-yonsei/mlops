@@ -4,7 +4,7 @@ MLOps with mlflow.
 
 This repository is based on MLFlow, Docker, Docker-Compose, MySql and AWS S3.
 
-> Required Python 3.9, mlflow 1.27.0
+> Required python 3.9, mlflow 1.27.0
 
 <div align="center">
     <img src="imgs/compare_metric.png" width=700>
@@ -14,7 +14,7 @@ This repository is based on MLFlow, Docker, Docker-Compose, MySql and AWS S3.
 - [For ML Developers](examples/README.md)
 - [For Infra Managers](server/README.md)
 
-These guides are for mlflow tracking server setting and usage. If you are a infra developer and plan to set up MLOps, read the below section. 
+These guides are for mlflow usage and simple settings. If you are a infra developer and plan to set up MLOps, read the below section. 
 
 ## MLOps Setting Docs
 1. Running tracking server with S3 & Mysql
