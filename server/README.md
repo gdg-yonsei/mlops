@@ -27,4 +27,4 @@ docker-compose build
 docker-compose up
 ```
 
-This command builds docker image named `mlflow_tracking-server`, and runs contrainer named `mlflow-tracking-server`.
+This command builds a docker image, and runs contrainer.

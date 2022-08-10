@@ -1,6 +1,6 @@
 version: '3'
 services:
-  tracking-server:
+  mlflow:
     build: .
     container_name: mlflow-tracking-server
     ports:
