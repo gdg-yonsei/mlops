@@ -2,7 +2,7 @@
 
 MLOps with mlflow.
 
-This repository is based on MLFlow, Docker, Docker-Compose, and various AWS Services.
+This repository is based on MLFlow, Docker, Docker-Compose, MySql and AWS S3.
 
 > Required Python 3.9, mlflow 1.27.0
 
