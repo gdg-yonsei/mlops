@@ -1,19 +1,10 @@
 # Multi-Stage Build
 
 # Builder
-FROM python:3.9 
-# AS build
-RUN python -m venv /opt/venv
-ENV PATH="/opt/venv/bin:$PATH"
+FROM python:3.9
 RUN apt-get update
 RUN apt-get install -y build-essential python3.9-dev libpq-dev
 RUN pip install mlflow mysqlclient boto3
-
-# Main
-# FROM python:3.9-slim
-# COPY --from=build /opt/venv /opt/venv
-# ENV PATH="/opt/venv/bin:$PATH"
-
 
 # Label
 LABEL author="Kiung Jung"
