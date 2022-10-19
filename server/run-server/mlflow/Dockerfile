@@ -9,7 +9,7 @@ LABEL description="MLFlow Tracking Server"
 # Installation
 RUN apt-get update
 RUN apt-get install -y build-essential python3.9-dev libpq-dev
-RUN pip install mlflow mysqlclient boto3
+RUN pip install mlflow==1.27.0 mysqlclient boto3
 
 # Port
 EXPOSE 5000/tcp

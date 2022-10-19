@@ -1,7 +1,7 @@
 version: '3'
 services:
   mlflow:
-    build: .
+    build: ./mlflow
     container_name: mlflow-tracking-server
     ports:
       - 5000:5000
@@ -10,3 +10,8 @@ services:
       AWS_SECRET_ACCESS_KEY: ${AWS_SECRET_ACCESS_KEY}
       MLFLOW_S3_URI: ${MLFLOW_S3_URI}
       MLFLOW_DB_URI: mysql://${MLFLOW_DBMS_USER}:${MLFLOW_DBMS_PASSWORD}@${MLFLOW_DBMS_ENDPOINT}:${MLFLOW_DBMS_PORT}/${MLFLOW_DBMS_DB}
+  nginx:
+    build: ./nginx
+    container_name: nginx
+    ports:
+      - "80:80"
